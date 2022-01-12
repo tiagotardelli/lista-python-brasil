@@ -1,0 +1,27 @@
+>>> preco_produto_1 = 1.0
+>>> preco_produto_2 = 11.1
+>>> preco_produto_3 = 10.0
+>>> if preco_produto_2 > preco_produto_1 < preco_produto_3:
+...     print('Você deve comprar o produto 1, pois é o mais barato')
+...
+Você deve comprar o produto 1, pois é o mais barato
+>>> preco_produto_1 = 11.0
+>>> preco_produto_2 = 1.1
+>>> preco_produto_3 = 10.0
+>>> if preco_produto_2 > preco_produto_1 < preco_produto_3:
+...     print('Você deve comprar o produto 1, pois é o mais barato')
+... elif preco_produto_1 > preco_produto_2 < preco_produto_3:
+...     print('Você deve comprar o produto 2, pois é o mais barato')
+...
+Você deve comprar o produto 2, pois é o mais barato
+>>> preco_produto_1 = 11.0
+>>> preco_produto_2 = 12.1
+>>> preco_produto_3 = 7.0
+>>> if preco_produto_2 > preco_produto_1 < preco_produto_3:
+...     print('Você deve comprar o produto 1, pois é o mais barato')
+... elif preco_produto_1 > preco_produto_2 < preco_produto_3:
+...     print('Você deve comprar o produto 2, pois é o mais barato')
+... else:
+...     print('Você deve comprar o produto 3, pois é o mais barato')
+...
+Você deve comprar o produto 3, pois é o mais barato

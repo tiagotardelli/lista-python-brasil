@@ -1,0 +1,16 @@
+>>> letra = 'a'
+>>> letra
+'a'
+>>> if letra in ('a', 'e', 'i', 'o', 'u'):
+...     print(f'{letra} é uma vogal.')
+...
+a é uma vogal.
+>>> letra = 's'
+>>> letra
+'s'
+>>> if letra in ('a', 'e', 'i', 'o', 'u'):
+...     print(f'{letra} é uma vogal.')
+... else:
+...     print(f'{letra} é uma consoante.')
+...
+s é uma consoante.

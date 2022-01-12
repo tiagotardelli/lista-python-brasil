@@ -1,0 +1,82 @@
+>>> numero_1 = 20.99
+>>> numero_2 = 10.1
+>>> numero_3 = 9.9
+>>> if numero_2 < numero_1 > numero_3:
+...     if numero_2 > numero_3:
+...         print(f'{numero_1}, {numero_2}, {numero_3}')
+...
+20.99, 10.1, 9.9
+>>> numero_1 = 20.99
+>>> numero_2 = 10.1
+>>> numero_3 = 12.9
+>>> if numero_2 < numero_1 > numero_3:
+...     if numero_2 > numero_3:
+...         print(f'{numero_1}, {numero_2}, {numero_3}')
+...     else:
+...         print(f'{numero_1}, {numero_3}, {numero_2}')
+...
+20.99, 12.9, 10.1
+>>> numero_1 = 13.9
+>>> numero_2 = 14.1
+>>> numero_3 = 12.9
+>>> if numero_2 < numero_1 > numero_3:
+...     if numero_2 > numero_3:
+...         print(f'{numero_1}, {numero_2}, {numero_3}')
+...     else:
+...         print(f'{numero_1}, {numero_3}, {numero_2}')
+... elif numero_1 < numero_2 > numero_3:
+...     if numero_1 > numero_3:
+...          print(f'{numero_2}, {numero_1}, {numero_3}')
+...
+14.1, 13.9, 12.9
+>>> numero_1 = 11.9
+>>> numero_2 = 14.1
+>>> numero_3 = 12.9
+>>> if numero_2 < numero_1 > numero_3:
+...     if numero_2 > numero_3:
+...         print(f'{numero_1}, {numero_2}, {numero_3}')
+...     else:
+...         print(f'{numero_1}, {numero_3}, {numero_2}')
+... elif numero_1 < numero_2 > numero_3:
+...     if numero_1 > numero_3:
+...          print(f'{numero_2}, {numero_1}, {numero_3}')
+...     else:
+...          print(f'{numero_2}, {numero_3}, {numero_1}')
+...
+14.1, 12.9, 11.9
+>>> numero_1 = 15.9
+>>> numero_2 = 14.1
+>>> numero_3 = 19.9
+>>> if numero_2 < numero_1 > numero_3:
+...     if numero_2 > numero_3:
+...         print(f'{numero_1}, {numero_2}, {numero_3}')
+...     else:
+...         print(f'{numero_1}, {numero_3}, {numero_2}')
+... elif numero_1 < numero_2 > numero_3:
+...     if numero_1 > numero_3:
+...          print(f'{numero_2}, {numero_1}, {numero_3}')
+...     else:
+...          print(f'{numero_2}, {numero_3}, {numero_1}')
+... elif numero_1 > numero_2:
+...     print(f'{numero_3}, {numero_1}, {numero_2}')
+...
+19.9, 15.9, 14.1
+>>> numero_1 = 15.9
+>>> numero_2 = 16.1
+>>> numero_3 = 19.9
+>>> if numero_2 < numero_1 > numero_3:
+...     if numero_2 > numero_3:
+...         print(f'{numero_1}, {numero_2}, {numero_3}')
+...     else:
+...         print(f'{numero_1}, {numero_3}, {numero_2}')
+... elif numero_1 < numero_2 > numero_3:
+...     if numero_1 > numero_3:
+...          print(f'{numero_2}, {numero_1}, {numero_3}')
+...     else:
+...          print(f'{numero_2}, {numero_3}, {numero_1}')
+... elif numero_1 > numero_2:
+...     print(f'{numero_3}, {numero_1}, {numero_2}')
+... else:
+...     print(f'{numero_3}, {numero_2}, {numero_1}')
+...
+19.9, 16.1, 15.9

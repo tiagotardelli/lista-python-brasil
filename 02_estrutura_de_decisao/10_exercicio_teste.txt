@@ -1,0 +1,32 @@
+>>> turno_estuda = 'M'
+>>> if turno_estuda == 'M':
+...     print('Bom dia!')
+...
+Bom dia!
+>>> turno_estuda = 'V'
+>>> if turno_estuda == 'M':
+...     print('Bom dia!')
+... elif turno_estuda == 'V':
+...     print('Boa Tarde!')
+...
+Boa Tarde!
+>>> turno_estuda = 'N'
+>>> if turno_estuda == 'M':
+...     print('Bom dia!')
+... elif turno_estuda == 'V':
+...     print('Boa Tarde!')
+... elif turno_estuda == 'N':
+...     print('Boa Noite!')
+...
+Boa Noite!
+>>> turno_estuda = 'Z'
+>>> if turno_estuda == 'M':
+...     print('Bom dia!')
+... elif turno_estuda == 'V':
+...     print('Boa Tarde!')
+... elif turno_estuda == 'N':
+...     print('Boa Noite!')
+... else:
+...     print('Valor Inválido!')
+...
+Valor Inválido!

@@ -1,0 +1,16 @@
+>>> numero = -1
+>>> numero
+-1
+>>> if numero < 0:
+...     print(f'Número {numero} é negativo.')
+...
+Número -1 é negativo.
+>>> numero = 1
+>>> numero
+1
+>>> if numero < 0:
+...     print(f'Número {numero} é negativo')
+... else:
+...     print(f'Número {numero} é positivo.')
+...
+Número 1 é positivo.

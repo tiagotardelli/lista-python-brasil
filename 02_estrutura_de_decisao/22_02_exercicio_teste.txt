@@ -1,0 +1,11 @@
+>>> ## Validação usando bitwise AND - Operação binária
+>>> numero_inteiro = 2
+>>>
+>>> ## números pares tem bit mais a direita igual a 0 
+>>> ## número ímpares tem bit mais a direita igual a 1
+>>> if (numero_inteiro & 1) == 0:
+...     print(f'O número {numero_inteiro} é par.')
+... elif (numero_inteiro & 1) == 1:
+...     print(f'O número {numero_inteiro} é ímpar.')
+...
+O número 2 é par.

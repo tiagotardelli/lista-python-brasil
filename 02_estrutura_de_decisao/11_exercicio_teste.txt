@@ -1,0 +1,81 @@
+>>> salario_atual = 200.0
+>>> percentual_aumento = 20
+>>> valor_aumento = 0
+>>> salario_reajustado = 0
+>>> if salario_atual <= 280.00:
+...     valor_aumento = salario_atual * (percentual_aumento / 100)
+...     salario_reajustado = salario_atual + valor_aumento
+...
+>>> print(f"""Salário Atual: R$ {salario_atual}
+... Percentual de Aumento Aplicado: {percentual_aumento}%
+... Valor de Aumento: {valor_aumento}
+... Salário com Aumento: R$ {salario_reajustado}""")
+Salário Atual: R$ 200.0
+Percentual de Aumento Aplicado: 20%
+Valor de Aumento: 40.0
+Salário	com Aumento: R$ 240.0
+>>> salario_atual = 290.0
+>>> percentual_aumento = 0
+>>> percentual_aumento_20 = 20
+>>> percentual_aumento_15 = 15
+>>> valor_aumento = 0
+>>> salario_reajustado = 0
+>>> if salario_atual <= 280.00:
+...     percentual_aumento = (percentual_aumento_20 / 100)
+...     valor_aumento = salario_atual * percentual_aumento
+... elif 280.0 < salario_atual <= 700.0:
+...     percentual_aumento = (percentual_aumento_15 / 100)
+...     valor_aumento = salario_atual * percentual_aumento
+...
+>>> salario_reajustado = salario_atual + valor_aumento 
+>>> print(f"""Salário Atual: R$ {salario_atual}
+... Percentual de Aumento Aplicado: {int(percentual_aumento*100)}%
+... Valor de Aumento: {valor_aumento}
+... Salário com Aumento: R$ {salario_reajustado}""")
+Salário Atual: R$ 290.0
+Percentual de Aumento Aplicado: 15%
+Valor de Aumento: 43.5
+Salário	com Aumento: R$ 333.5
+>>> salario_atual = 770.0
+>>> percentual_aumento = 0
+>>> percentual_aumento_20 = 20
+>>> percentual_aumento_15 = 15
+>>> percentual_aumento_10 = 10
+>>> if salario_atual <= 280.00:
+...     percentual_aumento = (percentual_aumento_20 / 100)
+... elif 280.0 < salario_atual <= 700.0:
+...     percentual_aumento = (percentual_aumento_15 / 100)
+... elif 700.0 < salario_atual <= 1500.0:
+...     percentual_aumento = (percentual_aumento_10 / 100)
+...
+>>> valor_aumento = salario_atual * percentual_aumento
+>>> salario_reajustado = salario_atual + valor_aumento 
+>>> print(f"""Salário Atual: R$ {salario_atual}
+... Percentual de Aumento Aplicado: {int(percentual_aumento*100)}%
+... Valor de Aumento: {valor_aumento}
+... Salário com Aumento: R$ {salario_reajustado}""")
+Salário Atual: R$ 770.0
+Percentual de Aumento Aplicado: 10%
+Valor de Aumento: 77.0
+Salário	com Aumento: R$ 847.0
+>>> salario_atual = 1501.0
+>>> percentual_aumento = 0
+>>> if salario_atual <= 280.00:
+...     percentual_aumento = (20 / 100)
+... elif 280.0 < salario_atual <= 700.0:
+...     percentual_aumento = (15 / 100)
+... elif 700.0 < salario_atual <= 1500.0:
+...     percentual_aumento = (10 / 100)
+... else:
+...     percentual_aumento = (5 / 100)
+...
+>>> valor_aumento = salario_atual * percentual_aumento
+>>> salario_reajustado = salario_atual + valor_aumento 
+>>> print(f"""Salário Atual: R$ {salario_atual}
+... Percentual de Aumento Aplicado: {int(percentual_aumento*100)}%
+... Valor de Aumento: {valor_aumento}
+... Salário com Aumento: R$ {salario_reajustado}""")
+Salário Atual: R$ 1501.0
+Percentual de Aumento Aplicado: 5%
+Valor de Aumento: 75.05
+Salário	com Aumento: R$ 1576.05

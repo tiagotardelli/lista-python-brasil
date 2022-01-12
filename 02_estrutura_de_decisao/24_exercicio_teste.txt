@@ -1,0 +1,99 @@
+>>> numero_1 = 10
+>>> numero_2 = 10
+>>> operacao = 'adicao'
+>>> if operacao == 'adicao':
+...     resultado = (numero_1 + numero_2)
+...     print(f"O resultado {resultado} {'é par' if resultado % 2 == 0 else 'é ímpar' }\n"
+...         f"O resultado {resultado} {'é positivo' if resultado >= 0 else 'é negativo'}\n"
+...         f"O resultado {resultado} {'é inteiro' if round(resultado) == resultado else 'é decimal'}"
+...     )
+...  
+O resultado 20 é par
+O resultado 20 é positivo
+O resultado 20 é inteiro
+
+
+>>> numero_1 = 10
+>>> numero_2 = 10
+>>> operacao = 'subtracao'
+>>>
+>>> if operacao == 'adicao':
+...     resultado = (numero_1 + numero_2)
+... elif operacao == 'subtracao':
+...     resultado = (numero_1 - numero_2)
+
+>>> print(f"O resultado {resultado} {'é par' if resultado % 2 == 0 else 'é ímpar' }\n"
+... f"O resultado {resultado} {'é positivo' if resultado >= 0 else 'é negativo'}\n"
+... f"O resultado {resultado} {'é inteiro' if round(resultado) == resultado else 'é decimal'}"
+... )
+... 
+O resultado 0 é par
+O resultado 0 é positivo
+O resultado 0 é inteiro
+
+
+>>> numero_1 = 10
+>>> numero_2 = 10
+>>> operacao = 'multiplicacao'
+>>>
+>>> if operacao == 'adicao':
+...     resultado = (numero_1 + numero_2)
+... elif operacao == 'subtracao':
+...     resultado = (numero_1 - numero_2)
+... elif operacao == 'multiplicacao':
+...     resultado = (numero_1 * numero_2)
+
+>>> print(f"O resultado {resultado} {'é par' if resultado % 2 == 0 else 'é ímpar' }\n"
+... f"O resultado {resultado} {'é positivo' if resultado >= 0 else 'é negativo'}\n"
+... f"O resultado {resultado} {'é inteiro' if round(resultado) == resultado else 'é decimal'}"
+... )
+... 
+O resultado 100 é par
+O resultado 100 é positivo
+O resultado 100 é inteiro
+
+
+>>> numero_1 = 10
+>>> numero_2 = 10
+>>> operacao = 'divisao'
+>>>
+>>> if operacao == 'adicao':
+...     resultado = (numero_1 + numero_2)
+... elif operacao == 'subtracao':
+...     resultado = (numero_1 - numero_2)
+... elif operacao == 'multiplicacao':
+...     resultado = (numero_1 * numero_2)
+... elif operacao == 'divisao':
+...     resultado = (numero_1 / numero_2)
+
+>>> print(f"O resultado {resultado} {'é par' if resultado % 2 == 0 else 'é ímpar' }\n"
+... f"O resultado {resultado} {'é positivo' if resultado >= 0 else 'é negativo'}\n"
+... f"O resultado {resultado} {'é inteiro' if round(resultado) == resultado else 'é decimal'}"
+... )
+... 
+O resultado 1.0 é ímpar
+O resultado 1.0 é positivo
+O resultado 1.0 é inteiro
+
+
+>>> numero_1 = -11
+>>> numero_2 = 10
+>>> operacao = 'divisao'
+>>>
+>>> if operacao == 'adicao':
+...     resultado = (numero_1 + numero_2)
+... elif operacao == 'subtracao':
+...     resultado = (numero_1 - numero_2)
+... elif operacao == 'multiplicacao':
+...     resultado = (numero_1 * numero_2)
+... elif operacao == 'divisao':
+...     resultado = (numero_1 / numero_2)
+
+>>> print(f"O resultado {resultado} {'é par' if resultado % 2 == 0 else 'é ímpar' }\n"
+... f"O resultado {resultado} {'é positivo' if resultado >= 0 else 'é negativo'}\n"
+... f"O resultado {resultado} {'é inteiro' if round(resultado) == resultado else 'é decimal'}"
+... )
+... 
+O resultado -1.1 é ímpar
+O resultado -1.1 é negativo
+O resultado -1.1 é decimal

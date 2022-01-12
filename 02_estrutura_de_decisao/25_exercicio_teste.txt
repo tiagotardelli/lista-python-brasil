@@ -1,0 +1,71 @@
+>>> ## "Telefonou para a vítima?"
+>>> ## "Esteve no local do crime?"
+>>> ## "Mora perto da vítima?"
+>>> ## "Devia para a vítima?"
+>>> ## "Já trabalhou com a vítima?" 
+>>> pergunta_1 = 1
+>>> pergunta_2 = 1
+>>> pergunta_3 = 1 
+>>> pergunta_4 = 1
+>>> pergunta_5 = 1
+>>> soma_perguntas =  pergunta_1 + pergunta_2 + pergunta_3 + pergunta_4 + pergunta_5
+>>> if soma_perguntas == 5:
+...     print('Assassino')
+... elif 3<= soma_perguntas <=4:
+...     print('Cúmplice')
+... elif soma_perguntas == 2:
+...     print('Suspeita')
+... else:
+...     print('Inocente')
+Assassino
+
+
+>>> pergunta_1 = 1
+>>> pergunta_2 = 1
+>>> pergunta_3 = 1 
+>>> pergunta_4 = 1
+>>> pergunta_5 = 0
+>>> soma_perguntas =  pergunta_1 + pergunta_2 + pergunta_3 + pergunta_4 + pergunta_5
+>>> if soma_perguntas == 5:
+...     print('Assassino')
+... elif 3<= soma_perguntas <=4:
+...     print('Cúmplice')
+... elif soma_perguntas == 2:
+...     print('Suspeita')
+... else:
+...     print('Inocente')
+Cúmplice
+
+
+>>> pergunta_1 = 1
+>>> pergunta_2 = 1
+>>> pergunta_3 = 0 
+>>> pergunta_4 = 0
+>>> pergunta_5 = 0
+>>> soma_perguntas =  pergunta_1 + pergunta_2 + pergunta_3 + pergunta_4 + pergunta_5
+>>> if soma_perguntas == 5:
+...     print('Assassino')
+... elif 3<= soma_perguntas <=4:
+...     print('Cúmplice')
+... elif soma_perguntas == 2:
+...     print('Suspeita')
+... else:
+...     print('Inocente')
+Suspeita
+
+
+>>> pergunta_1 = 1
+>>> pergunta_2 = 0
+>>> pergunta_3 = 0 
+>>> pergunta_4 = 0
+>>> pergunta_5 = 0
+>>> soma_perguntas =  pergunta_1 + pergunta_2 + pergunta_3 + pergunta_4 + pergunta_5
+>>> if soma_perguntas == 5:
+...     print('Assassino')
+... elif 3<= soma_perguntas <=4:
+...     print('Cúmplice')
+... elif soma_perguntas == 2:
+...     print('Suspeita')
+... else:
+...     print('Inocente')
+Inocente

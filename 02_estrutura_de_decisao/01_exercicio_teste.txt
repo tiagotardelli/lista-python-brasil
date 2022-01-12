@@ -1,0 +1,24 @@
+>>> numero_1 = 12
+>>> numero_1
+12
+>>> numero_2 = 10
+>>> numero_2
+10
+>>> if numero_1 > numero_2:
+...     print(f'O {numero_1} é o maior número.')
+... else:
+...     print(f'O {numero_2} é o maior número.')
+...
+O 12 é o maior número.
+>>> numero_1 = 9
+>>> numero_1
+9
+>>> numero_2 = 13
+>>> numero_2
+13
+>>> if numero_1 > numero_2:
+...     print(f'O {numero_1} é o maior número.')
+... else:
+...     print(f'O {numero_2} é o maior número.')
+...
+O 13 é o maior número.

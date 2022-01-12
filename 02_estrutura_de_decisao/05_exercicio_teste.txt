@@ -1,0 +1,31 @@
+>>> nota_1 = 10
+>>> nota_2 = 10
+>>> media = (nota_1 + nota_2) / 2
+>>> print(f'Sua média foi: {media}')
+Sua média foi: 10.0
+>>> if media >= 10:
+...     print('Aprovado com Distinção')
+...
+Aprovado com Distinção
+>>> nota_1 = 7
+>>> nota_2 = 7
+>>> media = (nota_1 + nota_2) / 2
+>>> print(f'Sua média foi: {media}')
+Sua média foi: 7.0
+>>> if media >= 10:
+...     print('Aprovado com Distinção')
+... else:
+...     print('Aprovado')
+Aprovado
+>>> nota_1 = 5
+>>> nota_2 = 5
+>>> media = (nota_1 + nota_2) / 2
+>>> print(f'Sua média foi: {media}')
+Sua média foi: 5.0
+>>> if media >= 10:
+...     print('Aprovado com Distinção')
+... elif media >= 7:
+...     print('Aprovado')
+... else:
+...     print('Reprovado')
+Reprovado

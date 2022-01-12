@@ -1,0 +1,220 @@
+>>> # 1 - File Duplo | 2 - Alcatra | 3 - Picanha
+>>> tipo_de_carne = 1
+>>> quantidade_de_carne = 8
+>>> # 1 - Cartão de Débito | 2 - Cartão de Crédito | 3 - Cartão Tabajara
+>>> tipo_de_pagamento = 3
+>>> descricao_pagamento = descricao_carne = ''
+>>> valor_a_pagar_sem_desconto = valor_unidade_carne = valor_total = desconto = 0.0
+>>> 
+>>> if tipo_de_carne == 1:
+...     descricao_carne = 'File Duplo'
+...     if quantidade_de_carne > 5:
+...         valor_unidade_carne = 5.8
+...     else:
+...         valor_unidade_carne = 4.9
+... elif tipo_de_carne == 2: 
+...     descricao_carne = 'Alcatra'
+...     if quantidade_de_carne > 5:
+...         valor_unidade_carne = 6.8
+...     else:
+...         valor_unidade_carne = 5.9
+... elif tipo_de_carne == 3:
+...     descricao_carne = 'Picanha'
+...     if quantidade_de_carne > 5:
+...         valor_unidade_carne = 7.8
+...     else:
+...         valor_unidade_carne = 6.9
+...
+>>> if tipo_de_pagamento == 3:
+...     descricao_pagamento = 'Cartão Tabajara'
+...     desconto = 5.0
+... elif tipo_de_pagamento == 2:
+...     descricao_pagamento = 'Cartão de Crédito'
+...     desconto = 0.0
+... elif tipo_de_pagamento == 1:      
+...     descricao_pagamento = 'Cartão de Débito'
+...     desconto = 0.0
+...
+>>> valor_a_pagar_sem_desconto = valor_unidade_carne * quantidade_de_carne
+>>> valor_do_desconto = valor_a_pagar_sem_desconto * (desconto / 100)
+>>> valor_total = valor_a_pagar_sem_desconto - valor_do_desconto
+>>>
+>>> print(
+...     f"Modo de Pagamento: {descricao_pagamento}\n"
+...     f"Tipo da Carne: {descricao_carne}\n"
+...     f"Valor Unidade: R$ {valor_unidade_carne:.2f}\n"
+...     f"Quantidade: {quantidade_de_carne}\n"
+...     f"Valor do Desconto: R$ {valor_do_desconto:.2f}\n"
+...     f"Valor a ser Pago: R$ {valor_total:.2f}"
+... )
+Modo de Pagamento: Cartão Tabajara
+Tipo da Carne: File Duplo
+Valor Unidade: R$ 5.80
+Quantidade: 8
+Valor do Desconto: R$ 2.32
+Valor a ser Pago: R$ 44.08
+
+
+>>> tipo_de_carne = 2
+>>> quantidade_de_carne = 8
+>>> tipo_de_pagamento = 3
+>>> descricao_pagamento = descricao_carne = ''
+>>> valor_a_pagar_sem_desconto = valor_unidade_carne = valor_total = desconto = 0.0
+>>> 
+>>> if tipo_de_carne == 1:
+...     descricao_carne = 'File Duplo'
+...     if quantidade_de_carne > 5:
+...         valor_unidade_carne = 5.8
+...     else:
+...         valor_unidade_carne = 4.9
+... elif tipo_de_carne == 2: 
+...     descricao_carne = 'Alcatra'
+...     if quantidade_de_carne > 5:
+...         valor_unidade_carne = 6.8
+...     else:
+...         valor_unidade_carne = 5.9
+... elif tipo_de_carne == 3:
+...     descricao_carne = 'Picanha'
+...     if quantidade_de_carne > 5:
+...         valor_unidade_carne = 7.8
+...     else:
+...         valor_unidade_carne = 6.9
+...
+>>> if tipo_de_pagamento == 3:
+...     descricao_pagamento = 'Cartão Tabajara'
+...     desconto = 5.0
+... elif tipo_de_pagamento == 2:
+...     descricao_pagamento = 'Cartão de Crédito'
+...     desconto = 0.0
+... elif tipo_de_pagamento == 1:      
+...     descricao_pagamento = 'Cartão de Débito'
+...     desconto = 0.0
+...
+>>> valor_a_pagar_sem_desconto = valor_unidade_carne * quantidade_de_carne
+>>> valor_do_desconto = valor_a_pagar_sem_desconto * (desconto / 100)
+>>> valor_total = valor_a_pagar_sem_desconto - valor_do_desconto
+>>>
+>>> print(
+...     f"Modo de Pagamento: {descricao_pagamento}\n"
+...     f"Tipo da Carne: {descricao_carne}\n"
+...     f"Valor Unidade: R$ {valor_unidade_carne:.2f}\n"
+...     f"Quantidade: {quantidade_de_carne}\n"
+...     f"Valor do Desconto: R$ {valor_do_desconto:.2f}\n"
+...     f"Valor a ser Pago: R$ {valor_total:.2f}"
+... )
+Modo de Pagamento: Cartão Tabajara
+Tipo da Carne: Alcatra
+Valor Unidade: R$ 6.80
+Quantidade: 8
+Valor do Desconto: R$ 2.72
+Valor a ser Pago: R$ 51.68
+
+
+>>> tipo_de_carne = 3
+>>> quantidade_de_carne = 8
+>>> tipo_de_pagamento = 3
+>>> descricao_pagamento = descricao_carne = ''
+>>> valor_a_pagar_sem_desconto = valor_unidade_carne = valor_total = desconto = 0.0
+>>> 
+>>> if tipo_de_carne == 1:
+...     descricao_carne = 'File Duplo'
+...     if quantidade_de_carne > 5:
+...         valor_unidade_carne = 5.8
+...     else:
+...         valor_unidade_carne = 4.9
+... elif tipo_de_carne == 2: 
+...     descricao_carne = 'Alcatra'
+...     if quantidade_de_carne > 5:
+...         valor_unidade_carne = 6.8
+...     else:
+...         valor_unidade_carne = 5.9
+... elif tipo_de_carne == 3:
+...     descricao_carne = 'Picanha'
+...     if quantidade_de_carne > 5:
+...         valor_unidade_carne = 7.8
+...     else:
+...         valor_unidade_carne = 6.9
+...
+>>> if tipo_de_pagamento == 3:
+...     descricao_pagamento = 'Cartão Tabajara'
+...     desconto = 5.0
+... elif tipo_de_pagamento == 2:
+...     descricao_pagamento = 'Cartão de Crédito'
+...     desconto = 0.0
+... elif tipo_de_pagamento == 1:      
+...     descricao_pagamento = 'Cartão de Débito'
+...     desconto = 0.0
+...
+>>> valor_a_pagar_sem_desconto = valor_unidade_carne * quantidade_de_carne
+>>> valor_do_desconto = valor_a_pagar_sem_desconto * (desconto / 100)
+>>> valor_total = valor_a_pagar_sem_desconto - valor_do_desconto
+>>>
+>>> print(
+...     f"Modo de Pagamento: {descricao_pagamento}\n"
+...     f"Tipo da Carne: {descricao_carne}\n"
+...     f"Valor Unidade: R$ {valor_unidade_carne:.2f}\n"
+...     f"Quantidade: {quantidade_de_carne}\n"
+...     f"Valor do Desconto: R$ {valor_do_desconto:.2f}\n"
+...     f"Valor a ser Pago: R$ {valor_total:.2f}"
+... )
+Modo de Pagamento: Cartão Tabajara
+Tipo da Carne: Picanha
+Valor Unidade: R$ 7.80
+Quantidade: 8
+Valor do Desconto: R$ 3.12
+Valor a ser Pago: R$ 59.28
+
+
+>>> tipo_de_carne = 1
+>>> quantidade_de_carne = float(2)
+>>> tipo_de_pagamento = 1
+>>> descricao_pagamento = descricao_carne = ''
+>>> valor_a_pagar_sem_desconto = valor_unidade_carne = valor_total = desconto = 0.0
+>>> 
+>>> if tipo_de_carne == 1:
+...     descricao_carne = 'File Duplo'
+...     if quantidade_de_carne > 5:
+...         valor_unidade_carne = 5.8
+...     else:
+...         valor_unidade_carne = 4.9
+... elif tipo_de_carne == 2: 
+...     descricao_carne = 'Alcatra'
+...     if quantidade_de_carne > 5:
+...         valor_unidade_carne = 6.8
+...     else:
+...         valor_unidade_carne = 5.9
+... elif tipo_de_carne == 3:
+...     descricao_carne = 'Picanha'
+...     if quantidade_de_carne > 5:
+...         valor_unidade_carne = 7.8
+...     else:
+...         valor_unidade_carne = 6.9
+...
+>>> if tipo_de_pagamento == 3:
+...     descricao_pagamento = 'Cartão Tabajara'
+...     desconto = 5.0
+... elif tipo_de_pagamento == 2:
+...     descricao_pagamento = 'Cartão de Crédito'
+...     desconto = 0.0
+... elif tipo_de_pagamento == 1:      
+...     descricao_pagamento = 'Cartão de Débito'
+...     desconto = 0.0
+...
+>>> valor_a_pagar_sem_desconto = valor_unidade_carne * quantidade_de_carne
+>>> valor_do_desconto = valor_a_pagar_sem_desconto * (desconto / 100)
+>>> valor_total = valor_a_pagar_sem_desconto - valor_do_desconto
+>>>
+>>> print(
+...     f"Modo de Pagamento: {descricao_pagamento}\n"
+...     f"Tipo da Carne: {descricao_carne}\n"
+...     f"Valor Unidade: R$ {valor_unidade_carne:.2f}\n"
+...     f"Quantidade: {quantidade_de_carne}\n"
+...     f"Valor do Desconto: R$ {valor_do_desconto:.2f}\n"
+...     f"Valor a ser Pago: R$ {valor_total:.2f}"
+... )
+Modo de Pagamento: Cartão de Débito
+Tipo da Carne: File Duplo
+Valor Unidade: R$ 4.90
+Quantidade: 2.0
+Valor do Desconto: R$ 0.00
+Valor a ser Pago: R$ 9.80
