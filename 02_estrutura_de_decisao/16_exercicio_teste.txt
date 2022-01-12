@@ -1,0 +1,47 @@
+>>> valor_a = 0
+>>> if valor_a == 0:
+...     print("A igual a 0. Não se caracteriza como uma equação de segundo grau.")
+...
+A igual a 0. Não se caracteriza como uma equação de segundo grau.
+>>>
+>>> valor_a = 7
+>>> if valor_a != 0:
+...     valor_b = 3
+...     valor_c = 4
+...     calculo_delta = (valor_b ** 2) - (4 * (valor_a * valor_c))
+...     if calculo_delta < 0:
+...         print(f"O delta é {calculo_delta:.2f}. A equação não possui raízes reais.")
+... else:
+...     print("A igual a 0. Não se caracteriza como uma equação de segundo grau.")
+...
+O delta é -103.00. A equação não possui raízes reais.
+>>>
+>>> valor_a = 2
+>>> if valor_a != 0:
+...     valor_b = 4
+...     valor_c = 2
+...     calculo_delta = (valor_b ** 2) - (4 * (valor_a * valor_c))
+...     if calculo_delta < 0:
+...         print(f"O delta é {calculo_delta:.2f}. A equação não possui raizes reais.")
+...     elif calculo_delta == 0:
+...          print(f"O delta é {calculo_delta:.2f}. A equação não possui apenas uma raiz real.")
+... else:
+...     print("A igual a 0. Não se caracteriza como uma equação de segundo grau.")
+...
+O delta é 0.00. A equação não possui apenas uma raiz real.
+>>>
+>>> valor_a = 4
+>>> if valor_a != 0:
+...     valor_b = 2
+...     valor_c = -6
+...     calculo_delta = (valor_b ** 2) - (4 * (valor_a * valor_c))
+...     if calculo_delta < 0:
+...         print(f"O delta é {calculo_delta:.2f}. A equação não possui raizes reais.")
+...     elif calculo_delta == 0:
+...          print(f"O delta é {calculo_delta:.2f}. A equação não possui apenas uma raiz real.")
+...     else:
+...         print(f"O delta é {calculo_delta:.2f}. A equação possui duas raizes reais.")
+... else:
+...     print("A igual a 0. Não se caracteriza como uma equação de segundo grau.")
+...
+O delta é 100.00. A equação possui duas raizes reais.

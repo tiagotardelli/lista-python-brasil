@@ -1,0 +1,27 @@
+>>> sexo = 'M'
+>>> sexo
+'M'
+>>> if sexo == 'M':
+...     print('M - Masculino')
+...
+M - Masculino
+>>> sexo = 'F'
+>>> sexo
+'F'
+>>> if sexo == 'M':
+...     print('M - Masculino')
+... elif sexo == 'F':
+...     print('F - Feminino')
+...
+F - Feminino
+>>> sexo = 'O'
+>>> sexo
+'O'
+>>> if sexo == 'M':
+...     print('M - Masculino')
+... elif sexo == 'F':
+...     print('F - Feminino')
+... else:
+...     print('Sexo Inválido!')
+...
+Sexo Inválido!

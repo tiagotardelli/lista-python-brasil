@@ -1,0 +1,82 @@
+>>> numero_1 = 10.0
+>>> numero_2 = 9.0
+>>> numero_3 = 1.0
+>>> if numero_2 < numero_1 > numero_3:
+...     if numero_2 > numero_3:
+...         print(f'{numero_1} é o maior e {numero_3} é o menor')
+...
+10.0 é o maior e 1.0 é o menor
+>>> numero_1 = 10.0
+>>> numero_2 = 2.0
+>>> numero_3 = 3.0
+>>> if numero_2 < numero_1 > numero_3:
+...     if numero_2 > numero_3:
+...         print(f'{numero_1} é o maior e {numero_3} é o menor')
+...     else:
+...         print(f'{numero_1} é o maior e {numero_2} é o menor')
+...
+10.0 é o maior e 2.0 é o menor
+>>> numero_1 = 3.0
+>>> numero_2 = 4.0
+>>> numero_3 = 2.0
+>>> if numero_2 < numero_1 > numero_3:
+...     if numero_2 > numero_3:
+...         print(f'{numero_1} é o maior e {numero_3} é o menor')
+...     else:
+...         print(f'{numero_1} é o maior e {numero_2} é o menor')
+... elif numero_1 < numero_2 > numero_3:
+...     if numero_1 > numero_3:
+...         print(f'{numero_2} é o maior e {numero_3} é o menor')
+...
+4.0 é o maior e 2.0 é o menor
+>>> numero_1 = 3.0
+>>> numero_2 = 5.0
+>>> numero_3 = 4.0
+>>> if numero_2 < numero_1 > numero_3:
+...     if numero_2 > numero_3:
+...         print(f'{numero_1} é o maior e {numero_3} é o menor')
+...     else:
+...         print(f'{numero_1} é o maior e {numero_2} é o menor')
+... elif numero_1 < numero_2 > numero_3:
+...     if numero_1 > numero_3:
+...         print(f'{numero_2} é o maior e {numero_3} é o menor')
+...     else:
+...         print(f'{numero_2} é o maior e {numero_1} é o menor')
+...
+5.0 é o maior e 3.0 é o menor
+>>> numero_1 = 3.0
+>>> numero_2 = 1.0
+>>> numero_3 = 90.0
+>>> if numero_2 < numero_1 > numero_3:
+...     if numero_2 > numero_3:
+...         print(f'{numero_1} é o maior e {numero_3} é o menor')
+...     else:
+...         print(f'{numero_1} é o maior e {numero_2} é o menor')
+... elif numero_1 < numero_2 > numero_3:
+...     if numero_1 > numero_3:
+...         print(f'{numero_2} é o maior e {numero_3} é o menor')
+...     else:
+...         print(f'{numero_2} é o maior e {numero_1} é o menor')
+... elif numero_1 > numero_2:
+...     print(f'{numero_3} é o maior e {numero_2} é o menor')         
+...
+90.0 é o maior e 1.0 é o menor
+>>> numero_1 = 3.0
+>>> numero_2 = 8.0
+>>> numero_3 = 90.0
+>>> if numero_2 < numero_1 > numero_3:
+...     if numero_2 > numero_3:
+...         print(f'{numero_1} é o maior e {numero_3} é o menor')
+...     else:
+...         print(f'{numero_1} é o maior e {numero_2} é o menor')
+... elif numero_1 < numero_2 > numero_3:
+...     if numero_1 > numero_3:
+...         print(f'{numero_2} é o maior e {numero_3} é o menor')
+...     else:
+...         print(f'{numero_2} é o maior e {numero_1} é o menor')
+... elif numero_1 > numero_2:
+...     print(f'{numero_3} é o maior e {numero_2} é o menor')         
+... else:
+...     print(f'{numero_3} é o maior e {numero_1} é o menor')
+...   
+90.0 é o maior e 3.0 é o menor

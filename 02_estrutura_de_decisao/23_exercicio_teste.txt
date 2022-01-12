@@ -1,0 +1,7 @@
+>>> numero = 10
+>>> if round(numero) == numero:
+...     print(f'Número {numero} é inteiro')
+... else:
+...     print(f'Número {numero} é decimal')
+... 
+Número 10 é inteiro

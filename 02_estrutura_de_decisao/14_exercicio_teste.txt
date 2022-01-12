@@ -1,0 +1,116 @@
+>>> primeira_nota = 10.0
+>>> segunda_nota = 10.0
+>>> media_nota = (primeira_nota + segunda_nota) / 2
+>>> conceito = None
+>>> if 9.0 < media_nota <= 10.0:
+...     conceito = 'A Aprovado'
+...
+>>> print(
+... f"""Nota 1: {primeira_nota:.2f}
+... Nota 2: {segunda_nota:.2f}
+... Média: {media_nota:.2f}
+... Conceito: {conceito}"""
+... )
+...
+Nota 1: 10.00
+Nota 2: 10.00
+Média: 10.00
+Conceito: A Aprovado
+>>> 
+>>> primeira_nota = 8.5
+>>> segunda_nota = 8.5
+>>> media_nota = (primeira_nota + segunda_nota) / 2
+>>> conceito = None
+>>> if 9.0 < media_nota <= 10.0:
+...     conceito = 'A Aprovado'
+... elif 7.5 < media_nota <= 9.0:
+...     conceito = 'B Aprovado'
+...
+>>> print(
+... f"""Nota 1: {primeira_nota:.2f}
+... Nota 2: {segunda_nota:.2f}
+... Média: {media_nota:.2f}
+... Conceito: {conceito}"""
+... )
+...
+Nota 1: 8.50
+Nota 2: 8.50
+Média: 8.50
+Conceito: B Aprovado
+>>> 
+>>> primeira_nota = 6.5
+>>> segunda_nota = 6.5
+>>> media_nota = (primeira_nota + segunda_nota) / 2
+>>> conceito = None
+>>> if 9.0 < media_nota <= 10.0:
+...     conceito = 'A Aprovado'
+... elif 7.5 < media_nota <= 9.0:
+...     conceito = 'B Aprovado'
+... elif 6.0 < media_nota <= 7.5:
+...     conceito = 'C Aprovado'
+...
+>>> print(
+... f"""Nota 1: {primeira_nota:.2f}
+... Nota 2: {segunda_nota:.2f}
+... Média: {media_nota:.2f}
+... Conceito: {conceito}"""
+... )
+...
+Nota 1: 6.50
+Nota 2: 6.50
+Média: 6.50
+Conceito: C Aprovado
+>>> 
+>>> primeira_nota = 5.5
+>>> segunda_nota = 5.5
+>>> media_nota = (primeira_nota + segunda_nota) / 2
+>>> conceito = None
+>>> if 9.0 < media_nota <= 10.0:
+...     conceito = 'A Aprovado'
+... elif 7.5 < media_nota <= 9.0:
+...     conceito = 'B Aprovado'
+... elif 6.0 < media_nota <= 7.5:
+...     conceito = 'C Aprovado'
+... elif 4.0 < media_nota <= 6.0:
+...     conceito = 'D Reprovado'
+... else:
+...     conceito = 'E Reprovado'
+...
+>>> print(
+... f"""Nota 1: {primeira_nota:.2f}
+... Nota 2: {segunda_nota:.2f}
+... Média: {media_nota:.2f}
+... Conceito: {conceito}"""
+... )
+...
+Nota 1: 5.50
+Nota 2: 5.50
+Média: 5.50
+Conceito: D Reprovado
+>>> 
+>>> primeira_nota = 4.0
+>>> segunda_nota = 4.0
+>>> media_nota = (primeira_nota + segunda_nota) / 2
+>>> conceito = None
+>>> if 9.0 < media_nota <= 10.0:
+...     conceito = 'A Aprovado'
+... elif 7.5 < media_nota <= 9.0:
+...     conceito = 'B Aprovado'
+... elif 6.0 < media_nota <= 7.5:
+...     conceito = 'C Aprovado'
+... elif 4.0 < media_nota <= 6.0:
+...     conceito = 'D Reprovado'
+... else:
+...     conceito = 'E Reprovado'
+...
+>>> print(
+... f"""Nota 1: {primeira_nota:.2f}
+... Nota 2: {segunda_nota:.2f}
+... Média: {media_nota:.2f}
+... Conceito: {conceito}"""
+... )
+...
+Nota 1: 4.00
+Nota 2: 4.00
+Média: 4.00
+Conceito: E Reprovado

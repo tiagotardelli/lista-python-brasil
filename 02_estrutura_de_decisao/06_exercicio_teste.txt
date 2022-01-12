@@ -1,0 +1,27 @@
+>>> numero_1 = 10.0
+>>> numero_2 = 9.1
+>>> numero_3 = 1.0
+>>> if numero_2 < numero_1 > numero_3:
+...     print(f'O {numero_1} é o maior número.')
+...
+O 10.0 é o maior número.
+>>> numero_1 = 7.0
+>>> numero_2 = 11.0
+>>> numero_3 = 8.99
+>>> if numero_2 < numero_1 > numero_3:
+...     print(f'O {numero_1} é o maior número.')
+... elif numero_1 < numero_2 > numero_3: 
+...     print(f'O {numero_2} é o maior número.')
+...
+O 11.0 é o maior número.
+>>> numero_1 = -38.9
+>>> numero_2 = -10.0
+>>> numero_3 = 899.0
+>>> if numero_2 < numero_1 > numero_3:
+...     print(f'O {numero_1} é o maior número.')
+... elif numero_1 < numero_2 > numero_3: 
+...     print(f'O {numero_2} é o maior número.')
+... else:
+...     print(f'O {numero_3} é o maior número.')
+...
+O 899.0 é o maior número.

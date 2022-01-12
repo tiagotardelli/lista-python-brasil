@@ -1,0 +1,52 @@
+>>> ano = 1901
+>>> if (ano % 4) == 0:
+...     if (ano % 100) == 0:
+...         if (ano % 400) == 0:
+...             print(f"O ano {ano} é bissexto (tem 366 dias)")
+...         else:
+...             print(f"O ano {ano} não é um ano bissexto (tem 365 dias)")                
+...     else:
+...         print(f"O ano {ano} é bissexto (tem 366 dias)")
+... else:
+...     print(f"O ano {ano} não é um ano bissexto (tem 365 dias)")
+...        
+O ano 1901 não é um ano bissexto (tem 365 dias)
+>>> ano = 1992
+>>> if (ano % 4) == 0:
+...     if (ano % 100) == 0:
+...         if (ano % 400) == 0:
+...             print(f"O ano {ano} é bissexto (tem 366 dias)")
+...         else:
+...             print(f"O ano {ano} não é um ano bissexto (tem 365 dias)")                
+...     else:
+...         print(f"O ano {ano} é bissexto (tem 366 dias)")
+... else:
+...     print(f"O ano {ano} não é um ano bissexto (tem 365 dias)")
+...        
+O ano 1992 é bissexto (tem 366 dias)
+>>> ano = 2000
+>>> if (ano % 4) == 0:
+...     if (ano % 100) == 0:
+...         if (ano % 400) == 0:
+...             print(f"O ano {ano} é bissexto (tem 366 dias)")
+...         else:
+...             print(f"O ano {ano} não é um ano bissexto (tem 365 dias)")                
+...     else:
+...         print(f"O ano {ano} é bissexto (tem 366 dias)")
+... else:
+...     print(f"O ano {ano} não é um ano bissexto (tem 365 dias)")
+...        
+O ano 2000 é bissexto (tem 366 dias)
+>>> ano = 1900
+>>> if (ano % 4) == 0:
+...     if (ano % 100) == 0:
+...         if (ano % 400) == 0:
+...             print(f"O ano {ano} é bissexto (tem 366 dias)")
+...         else:
+...             print(f"O ano {ano} não é um ano bissexto (tem 365 dias)")                
+...     else:
+...         print(f"O ano {ano} é bissexto (tem 366 dias)")
+... else:
+...     print(f"O ano {ano} não é um ano bissexto (tem 365 dias)")
+...        
+O ano 1900 não é um ano bissexto (tem 365 dias)

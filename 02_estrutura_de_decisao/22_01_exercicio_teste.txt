@@ -1,0 +1,15 @@
+
+>>> numero_inteiro = 2
+>>> resto_divisao = numero_inteiro % 2
+>>> if resto_divisao == 0:
+>>>     print(f'O número {numero_inteiro} é par.')
+O número 2 é par.
+
+
+>>> numero_inteiro = 3
+>>> resto_divisao = numero_inteiro % 2
+>>> if resto_divisao == 0:
+>>>     print(f'O número {numero_inteiro} é par.')
+>>> else:
+>>>     print(f'O número {numero_inteiro} é ímpar.')
+O número 3 é ímpar.

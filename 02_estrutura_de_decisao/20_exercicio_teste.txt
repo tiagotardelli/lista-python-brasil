@@ -1,0 +1,31 @@
+>>> nota_parcial_1 = 8.0
+>>> nota_parcial_2 = 8.0
+>>> nota_parcial_3 = 8.0
+>>> media_notas = (nota_parcial_1 + nota_parcial_2 + nota_parcial_3) / 3
+>>> if media_notas >= 7:
+...     print(f'Aprovado com a média de {media_notas:.2f}')
+...
+Aprovado com a média de 8.00
+>>>
+>>> nota_parcial_1 = 6.0
+>>> nota_parcial_2 = 6.0
+>>> nota_parcial_3 = 6.0
+>>> media_notas = (nota_parcial_1 + nota_parcial_2 + nota_parcial_3) / 3
+>>> if media_notas >= 7:
+...     print(f'Aprovado com a média de {media_notas:.2f}')
+... elif media_notas < 7:
+...      print(f'Reprovado com a média de {media_notas:.2f}')
+Reprovado com a média de 6.00
+>>>
+>>> nota_parcial_1 = 10.0
+>>> nota_parcial_2 = 10.0
+>>> nota_parcial_3 = 10.0
+>>> media_notas = (nota_parcial_1 + nota_parcial_2 + nota_parcial_3) / 3
+>>> if media_notas >= 7:
+...     if media_notas == 10:
+...         print(f'Aprovado com Distinção com a média de {media_notas:.2f}')
+...     else:
+...         print(f'Aprovado com a média de {media_notas:.2f}')
+... elif media_notas < 7:
+...      print(f'Reprovado com a média de {media_notas:.2f}')
+Aprovado com Distinção com a média de 10.00

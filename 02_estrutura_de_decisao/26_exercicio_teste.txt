@@ -1,0 +1,61 @@
+>>> tipo_combustivel = 'A'
+>>> quantidade_litros = 20
+>>> valor_litro_alcool = 1.90
+>>>
+>>> if quantidade_litros <= 20 and tipo_combustivel == 'A':
+...     valor_com_desconto = (quantidade_litros * valor_litro_alcool) / 1.03
+...     print(f'O valor a ser pago por {quantidade_litros} litro(s) de Álcool será de R$ {valor_com_desconto:.2f}')
+...
+O valor a ser pago por 20 litro(s) de Álcool será de R$ 36.89
+
+>>> tipo_combustivel = 'A'
+>>> quantidade_litros = 21
+>>> valor_litro_alcool = 1.90
+>>>
+>>> if quantidade_litros <= 20 and tipo_combustivel == 'A':
+...     valor_com_desconto = (quantidade_litros * valor_litro_alcool) / 1.03
+...     print(f'O valor a ser pago por {quantidade_litros} litro(s) de Álcool será de R$ {valor_com_desconto:.2f}')
+... elif quantidade_litros > 20 and tipo_combustivel == 'A':
+...     valor_com_desconto = (quantidade_litros * valor_litro_alcool) / 1.05
+...     print(f'O valor a ser pago por {quantidade_litros} litro(s) de Álcool será de R$ {valor_com_desconto:.2f}')
+O valor a ser pago por 21 litro(s) de Álcool será de R$ 38.00
+
+
+>>> tipo_combustivel = 'G'
+>>> quantidade_litros = 20
+>>> valor_litro_alcool = 1.90
+>>> valor_litro_gasolina = 2.5
+>>>
+>>> if quantidade_litros <= 20 and tipo_combustivel == 'A':
+...     valor_com_desconto = (quantidade_litros * valor_litro_alcool) / 1.03
+...     print(f'O valor a ser pago por {quantidade_litros} litro(s) de Álcool será de R$ {valor_com_desconto:.2f}')
+... elif quantidade_litros > 20 and tipo_combustivel == 'A':
+...     valor_com_desconto = (quantidade_litros * valor_litro_alcool) / 1.05
+...     print(f'O valor a ser pago por {quantidade_litros} litro(s) de Álcool será de R$ {valor_com_desconto:.2f}')
+... elif quantidade_litros <= 20 and tipo_combustivel == 'G':
+...     valor_com_desconto = (quantidade_litros * valor_litro_gasolina) / 1.04
+...     print(f'O valor a ser pago por {quantidade_litros} litro(s) de Gasolina será de R$ {valor_com_desconto:.2f}')
+... elif quantidade_litros > 20 and tipo_combustivel == 'G':
+...     valor_com_desconto = (quantidade_litros * valor_litro_gasolina) / 1.06
+...     print(f'O valor a ser pago por {quantidade_litros} litro(s) de Gasolina será de R$ {valor_com_desconto:.2f}')
+O valor a ser pago por 20 litro(s) de Gasolina será de R$ 48.08
+
+
+>>> tipo_combustivel = 'G'
+>>> quantidade_litros = 21
+>>> valor_litro_alcool = 1.90
+>>> valor_litro_gasolina = 2.5
+>>>
+>>> if quantidade_litros <= 20 and tipo_combustivel == 'A':
+...     valor_com_desconto = (quantidade_litros * valor_litro_alcool) / 1.03
+...     print(f'O valor a ser pago por {quantidade_litros} litro(s) de Álcool será de R$ {valor_com_desconto:.2f}')
+... elif quantidade_litros > 20 and tipo_combustivel == 'A':
+...     valor_com_desconto = (quantidade_litros * valor_litro_alcool) / 1.05
+...     print(f'O valor a ser pago por {quantidade_litros} litro(s) de Álcool será de R$ {valor_com_desconto:.2f}')
+... elif quantidade_litros <= 20 and tipo_combustivel == 'G':
+...     valor_com_desconto = (quantidade_litros * valor_litro_gasolina) / 1.04
+...     print(f'O valor a ser pago por {quantidade_litros} litro(s) de Gasolina será de R$ {valor_com_desconto:.2f}')
+... elif quantidade_litros > 20 and tipo_combustivel == 'G':
+...     valor_com_desconto = (quantidade_litros * valor_litro_gasolina) / 1.06
+...     print(f'O valor a ser pago por {quantidade_litros} litro(s) de Gasolina será de R$ {valor_com_desconto:.2f}')
+O valor a ser pago por 21 litro(s) de Gasolina será de R$ 49.53

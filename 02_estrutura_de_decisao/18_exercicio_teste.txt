@@ -1,0 +1,113 @@
+>>> data = '20/02/202'
+>>> if len(data) != 10:
+...     print("Data está no formato incorreto! Correto DD/MM/YYYY")
+...
+Data está no formato incorreto! Correto DD/MM/YYYY
+>>>
+>>> data = '20/22/2022'
+>>> if len(data) != 10:
+...     print("Data está no formato incorreto! Correto DD/MM/YYYY")
+... elif 1 < int(data[3:5]) > 12:
+...     print("O mês deve estar entre 01 e 12")
+...
+O mês deve estar entre 01 e 12
+>>>
+>>> data = '40/02/2022'
+>>> if len(data) != 10:
+...     print("Data está no formato incorreto! Correto DD/MM/YYYY")
+... elif 1 < int(data[3:5]) > 12:
+...     print("O mês deve estar entre 01 e 12")
+... elif 1 < int(data[:2]) > 31:
+...     print("O dia deve estar entre 01 e 31")
+...
+O dia deve estar entre 01 e 31
+>>>
+>>> data = '31/04/2022'
+>>> if len(data) != 10:
+...     print("Data está no formato incorreto! Correto DD/MM/YYYY")
+... elif 1 < int(data[3:5]) > 12:
+...     print("O mês deve estar entre 01 e 12")
+... elif 1 < int(data[:2]) > 31:
+...     print("O dia deve estar entre 01 e 31")
+... elif (int(data[3:5]) == 4 or int(data[3:5]) == 6 or int(data[3:5]) == 11) and int(data[:2]) > 30:
+...     print("Os meses 04, 06 e 09 e 11 só tem 30 dias")
+Os meses 04, 06 e 09 e 11 só tem 30 dias
+>>>
+>>> data = '30/02/1900'
+>>> if len(data) != 10:
+...     print("Data está no formato incorreto! Correto DD/MM/YYYY")
+... elif 1 < int(data[3:5]) > 12:
+...     print("O mês deve estar entre 01 e 12")
+... elif 1 < int(data[:2]) > 31:
+...     print("O dia deve estar entre 01 e 31")
+... elif (int(data[3:5]) == 4 or int(data[3:5]) == 6 or int(data[3:5]) == 11) and int(data[:2]) > 30:
+...     print("Os meses 04, 06 e 09 e 11 só tem 30 dias")
+... elif int(data[3:5]) == 2 and int(data[:2]) > 29:
+...          print(f"O dia para o mês 02 deve estar entre 01 e 31")
+O dia para o mês 02 deve estar entre 01 e 31
+>>>
+>>> data = '29/02/1900'
+>>> if len(data) != 10:
+...     print("Data está no formato incorreto! Correto DD/MM/YYYY")
+... elif 1 < int(data[3:5]) > 12:
+...     print("O mês deve estar entre 01 e 12")
+... elif 1 < int(data[:2]) > 31:
+...     print("O dia deve estar entre 01 e 31")
+... elif (int(data[3:5]) == 4 or int(data[3:5]) == 6 or int(data[3:5]) == 11) and int(data[:2]) > 30:
+...     print("Os meses 04, 06 e 09 e 11 só tem 30 dias")
+... elif int(data[3:5]) == 2 and int(data[:2]) > 29:
+...     print("O dia para o mês 02 deve estar entre 01 e 31")
+... elif (int(data[3:5]) == 2 and int(data[:2]) == 29 and 
+...     int(data[-4:]) != 0 and 
+...     (int(data[-4:]) % 400 != 0  if int(data[-4:]) % 100 == 0 else False)
+... ):
+...     print(f"O ano {data[-4:]} não é bissexto")      
+O ano 1900 não é bissexto
+>>>
+>>> data = '29/02/1900'
+>>> validacao_data = True
+>>> if len(data) != 10:
+...     validacao_data = False
+... elif 1 < int(data[3:5]) > 12:
+...     validacao_data = False
+... elif 1 < int(data[:2]) > 31:
+...     validacao_data = False
+... elif (int(data[3:5]) == 4 or int(data[3:5]) == 6 or int(data[3:5]) == 11) and int(data[:2]) > 30:
+...     validacao_data = False
+... elif int(data[3:5]) == 2 and int(data[:2]) > 29:
+...     validacao_data = False
+... elif (int(data[3:5]) == 2 and int(data[:2]) == 29 and 
+...     int(data[-4:]) != 0 and 
+...     (int(data[-4:]) % 400 != 0  if int(data[-4:]) % 100 == 0 else False)
+... ):
+...     validacao_data = False
+>>> if validacao_data:
+...     print(f'{data} é uma data válida')
+... else:
+...     print(f'{data} é uma data inválida')
+...
+29/02/1900 é uma data inválida
+>>>
+>>> data = '28/02/1900'
+>>> validacao_data = True
+>>> if len(data) != 10:
+...     validacao_data = False
+... elif 1 < int(data[3:5]) > 12:
+...     validacao_data = False
+... elif 1 < int(data[:2]) > 31:
+...     validacao_data = False
+... elif (int(data[3:5]) == 4 or int(data[3:5]) == 6 or int(data[3:5]) == 11) and int(data[:2]) > 30:
+...     validacao_data = False
+... elif int(data[3:5]) == 2 and int(data[:2]) > 29:
+...     validacao_data = False
+... elif (int(data[3:5]) == 2 and int(data[:2]) == 29 and 
+...     int(data[-4:]) != 0 and 
+...     (int(data[-4:]) % 400 != 0  if int(data[-4:]) % 100 == 0 else False)
+... ):
+...     validacao_data = False
+...
+>>> if validacao_data:
+...     print(f'{data} é uma data válida')
+... else:
+...     print(f'{data} é uma data inválida')   
+28/02/1900 é uma data válida
