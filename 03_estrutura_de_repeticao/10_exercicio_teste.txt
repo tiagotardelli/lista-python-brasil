@@ -1,0 +1,8 @@
+>>> numero_1 = 0
+>>> numero_2 = 4
+>>> for i in range(numero_1 + 1, numero_2):
+...     print(i)
+...
+1
+2
+3

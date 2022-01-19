@@ -1,0 +1,11 @@
+>>> numero = 1
+>>>
+>>> print(f'Tabuada do {numero}')
+Tabuada do 1
+>>> for i in range(1,5):
+...     print(f'{numero} X {i} = {int(numero*i)}')
+...
+1 X 1 = 1
+1 X 2 = 2
+1 X 3 = 3
+1 X 4 = 4

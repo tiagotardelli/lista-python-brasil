@@ -1,0 +1,13 @@
+>>> numero_1 = 0
+>>> numero_2 = 4
+>>> soma = 0
+>>>
+>>> for i in range(numero_1 + 1, numero_2):
+...     print(i)
+...     soma += i
+...
+1
+2
+3
+>>> print(f'Soma: {soma}')
+Soma: 6

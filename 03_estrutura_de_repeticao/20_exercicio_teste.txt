@@ -1,0 +1,41 @@
+Ex.: 5!=5.4.3.2.1=120
+>>> numero = 5
+>>> resultado_int =  numero
+>>> resultado_str = str(numero) + '!=' + str(numero)
+>>>
+>>> for i in range(1, numero):
+...     numero -= 1
+...     resultado_int *= numero
+...     resultado_str = resultado_str + '.' + str(numero)       
+...
+>>> print(resultado_str + '=' + str(resultado_int))
+5!=5.4.3.2.1=120
+
+
+>>> quantidade = 2
+>>>
+>>> for i in range(1, quantidade + 1):
+...     numero_fatorial = 0
+...     while True:
+...         try:
+...             numero_fatorial = (i + 2)  
+...             assert 0 <= numero_fatorial <= 16
+...             break
+...         except ValueError:
+...             print('Deve-se digitar um valor inteiro entre 0 e 16')
+...         except AssertionError:
+...             print('Deve-se digitar um valor inteiro entre 0 e 16')
+...
+...     resultado_int =  numero_fatorial
+...     resultado_str = str(numero_fatorial) + '!=' + str(numero_fatorial)
+...
+...     for i in range(1, numero_fatorial):
+...         numero_fatorial -= 1
+...         resultado_int *= numero_fatorial
+...         if numero_fatorial > 0:
+...             resultado_str = resultado_str + '.' + str(numero_fatorial)       
+...
+...     print(resultado_str + '=' + str(resultado_int))
+...
+3!=3.2.1=6
+4!=4.3.2.1=24

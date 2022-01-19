@@ -1,0 +1,316 @@
+>>> nome = 'Tiago'
+>>> if len(nome) >= 3:
+...     print('Nome válido')
+...
+Nome válido
+
+>>> nome = 'Ti'
+>>> if len(nome) >= 3:
+...     print('Nome válido')
+... else:
+...     print('Nome deve ter 3 ou mais letras!')
+Nome deve ter 3 ou mais letras!
+
+>>> nome_validado = False
+>>> while True:
+...     nome = 'Tiago'
+...     if len(nome) >= 3:
+...         nome_validado = True
+...     else:
+...         print('Nome deve ter 3 ou mais letras!')
+...     if nome_validado:
+...         print(f'Nome: {nome}')
+...         break
+...
+Nome: Tiago
+
+
+>>> idade = 1
+>>> if 0 < idade < 150:
+...     print('Idade válida')
+...
+Idade válida
+
+
+>>> idade = 0
+>>> if 0 < idade < 150:
+...     print('Idade válida')
+... else:
+...     print('Idade deve estar entre 0 a 150')
+Idade deve estar entre 0 a 150
+
+
+>>> nome_valido = False
+>>> idade_valida = False
+>>>
+>>> while True:
+...     if not nome_valido:
+...         nome = 'Tiago'
+...         if len(nome) >= 3:
+...             nome_validado = True
+...         else:
+...             print('Nome deve ter 3 ou mais letras!')
+...     if not idade_valida:
+...         idade = 13
+...         if 0 < idade < 150:
+...             idade_valida = True
+...         else:
+...             print('Idade deve estar entre 0 a 150')
+...     if nome_validado and idade_valida:
+...         print(f'Nome: {nome}\n'
+...         f'Idade: {idade}')
+...         break
+... 
+Nome: Tiago
+Idade: 13
+
+
+>>> salario = 1
+>>> if salario > 0:
+...     print(f'Salário: R$ {salario:.2f}')
+...
+Salário: R$ 1.00
+
+
+>>> salario = -1
+>>> if salario > 0:
+...     print(f'Salário: R$ {salario:.2f}')
+... else:
+...     print('Salário deve ser maior que 0')
+Salário deve ser maior que 0
+
+>>> nome_valido = False
+>>> idade_valida = False
+>>> salario_valido = False
+>>>
+>>> while True:
+...     if not nome_valido:
+...         nome = 'Tiago'
+...         if len(nome) >= 3:
+...             nome_validado = True
+...         else:
+...             print('Nome deve ter 3 ou mais letras!')
+...     if not idade_valida:
+...         idade = 13
+...         if 0 < idade < 150:
+...             idade_valida = True
+...         else:
+...             print('Idade deve estar entre 0 a 150')
+...     if not salario_valido:
+...         salario = 1
+...         if salario > 0:
+...             salario_valido = True
+...         else:
+...             print('Salário deve ser maior que 0')         
+...
+...     if nome_validado and idade_valida and salario_valido:
+...         print(f'Nome: {nome}\n'
+...         f'Idade: {idade}\n'
+...         f'Salário: R$ {salario:.2f}'
+...         )
+...         break
+... 
+Nome: Tiago
+Idade: 13
+Salário: R$ 1.00
+
+>>> sexo = 'f'
+>>> if sexo == 'f' or sexo == 'm':
+...     print(f'Sexo: {sexo}')
+...
+Sexo: f
+
+>>> sexo = 'z'
+>>> if sexo == 'f' or sexo == 'm':
+...     print(f'Sexo: {sexo}')
+... else:
+...     print('Sexo deve ser f ou m')
+Sexo deve ser f ou m
+
+
+>>> nome_valido = False
+>>> idade_valida = False
+>>> salario_valido = False
+>>> sexo_valido =  False
+>>>
+>>> while True:
+...     if not nome_valido:
+...         nome = 'Tiago'
+...         if len(nome) >= 3:
+...             nome_validado = True
+...         else:
+...             print('Nome deve ter 3 ou mais letras!')
+...     if not idade_valida:
+...         idade = 13
+...         if 0 < idade < 150:
+...             idade_valida = True
+...         else:
+...             print('Idade deve estar entre 0 a 150')
+...     if not salario_valido:
+...         salario = 1
+...         if salario > 0:
+...             salario_valido = True
+...         else:
+...             print('Salário deve ser maior que 0')
+...     if not sexo_valido:
+...         sexo = 'm'
+...         if sexo == 'f' or sexo == 'm':
+...             sexo_valido = True
+...         else:
+...             print('Sexo deve ser f ou m')
+...
+...     if nome_validado and idade_valida and salario_valido and sexo_valido:
+...         print(f'Nome: {nome}\n'
+...         f'Idade: {idade}\n'
+...         f'Salário: R$ {salario:.2f}\n'
+...         f'Sexo: {sexo}'
+...         )
+...         break
+... 
+Nome: Tiago
+Idade: 13
+Salário: R$ 1.00
+Sexo: m
+
+>>> estado_civil = 's'
+>>> if (estado_civil == 's' or 
+...     estado_civil == 'c' or
+...     estado_civil == 'v' or
+...     estado_civil == 'd'):
+...     print(f'Estado Civil: {estado_civil}')
+...
+Estado Civil: s
+
+
+>>> estado_civil = 'z'
+>>> if (estado_civil == 's' or 
+...     estado_civil == 'c' or
+...     estado_civil == 'v' or
+...     estado_civil == 'd'):
+...     print(f'Estado Civil: {estado_civil}')
+... else:
+...     print('Estado Civil deve ser s, c, v ou d')
+...
+Estado Civil deve ser s, c, v ou d
+
+
+>>> nome_valido = False
+>>> idade_valida = False
+>>> salario_valido = False
+>>> sexo_valido =  False
+>>> estado_civil_valido = False
+>>>
+>>> while True:
+...     if not nome_valido:
+...         nome = 'Tiago'
+...         if len(nome) >= 3:
+...             nome_validado = True
+...         else:
+...             print('Nome deve ter 3 ou mais letras!')
+...
+...     if not idade_valida:
+...         idade = 13
+...         if 0 < idade < 150:
+...             idade_valida = True
+...         else:
+...             print('Idade deve estar entre 0 a 150')
+...     if not salario_valido:
+...         salario = 1
+...         if salario > 0:
+...             salario_valido = True
+...         else:
+...             print('Salário deve ser maior que 0')
+...
+...     if not sexo_valido:
+...         sexo = 'm'
+...         if sexo == 'f' or sexo == 'm':
+...             sexo_valido = True
+...         else:
+...             print('Sexo deve ser f ou m')
+...
+...     if not estado_civil_valido:
+...         estado_civil = 's'
+...         if (estado_civil == 's' or 
+...         estado_civil == 'c' or
+...         estado_civil == 'v' or
+...         estado_civil == 'd'):
+...             estado_civil_valido = True
+...         else:
+...             print('Estado Civil deve ser s, c, v ou d')
+...
+...     if (nome_validado and 
+...     idade_valida and 
+...     salario_valido and 
+...     sexo_valido and
+...     estado_civil_valido):
+...         print(f'Nome: {nome}\n'
+...         f'Idade: {idade}\n'
+...         f'Salário: R$ {salario:.2f}\n'
+...         f'Sexo: {sexo}\n'
+...         f'Estado Civil: {estado_civil}')
+...         break
+... 
+Nome: Tiago
+Idade: 13
+Salário: R$ 1.00
+Sexo: m
+Estado Civil: s
+
+
+>>> nome_valido = idade_valida = salario_valido = sexo_valido =  estado_civil_valido = False
+>>>
+>>> while True:
+...     if not nome_valido:
+...         nome = 'Tiago'
+...         if len(nome) >= 3:
+...             nome_valido = True
+...         else:
+...             print('Nome deve ter 3 ou mais letras!')
+...
+...     if not idade_valida and nome_valido:
+...         idade = 13
+...         if 0 < idade < 150:
+...             idade_valida = True
+...         else:
+...             print('Idade deve estar entre 0 a 150')
+...     if not salario_valido and idade_valida:
+...         salario = 1
+...         if salario > 0:
+...             salario_valido = True
+...         else:
+...             print('Salário deve ser maior que 0')
+...
+...     if not sexo_valido and salario_valido:
+...         sexo = 'm'
+...         if sexo == 'f' or sexo == 'm':
+...             sexo_valido = True
+...         else:
+...             print('Sexo deve ser f ou m')
+...
+...     if not estado_civil_valido and sexo_valido:
+...         estado_civil = 's'
+...         if (estado_civil == 's' or 
+...         estado_civil == 'c' or
+...         estado_civil == 'v' or
+...         estado_civil == 'd'):
+...             estado_civil_valido = True
+...         else:
+...             print('Estado Civil deve ser s, c, v ou d')
+...
+...     if (nome_valido and 
+...     idade_valida and 
+...     salario_valido and 
+...     sexo_valido and
+...     estado_civil_valido):
+...         print(f'Nome: {nome}\n'
+...         f'Idade: {idade}\n'
+...         f'Salário: R$ {salario:.2f}\n'
+...         f'Sexo: {sexo}\n'
+...         f'Estado Civil: {estado_civil}')
+...         break
+... 
+Nome: Tiago
+Idade: 13
+Salário: R$ 1.00
+Sexo: m
+Estado Civil: s

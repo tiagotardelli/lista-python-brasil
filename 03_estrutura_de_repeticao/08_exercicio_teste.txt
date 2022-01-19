@@ -1,0 +1,6 @@
+>>> soma = 0
+>>> media = 0
+>>> for i in range(5):
+...     soma += i
+>>> print(f'Soma: {soma} | Média: {soma/5}')
+Soma: 10 | Média: 2.0
