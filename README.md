@@ -8,3 +8,4 @@ _________
 
 - [Estrutura Sequencial](01_estrutura_sequencial/README.md)
 - [Estrutura de Decisão](02_estrutura_de_decisao/README.md)
+- [Estrutura de Repetição](03_estrutura_de_repeticao/README.md)

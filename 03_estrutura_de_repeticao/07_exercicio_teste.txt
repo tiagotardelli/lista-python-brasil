@@ -1,0 +1,19 @@
+>>> for i in range(5):
+...     print(i)
+0
+1
+2
+3
+4
+>>> maximo = 0
+>>>
+>>> for i in range(5):
+...     maximo = max(maximo, i)
+...     print(f'Número máximo encontrado até agora é: {maximo}')
+...
+Número máximo encontrado até agora é: 0
+Número máximo encontrado até agora é: 1
+Número máximo encontrado até agora é: 2
+Número máximo encontrado até agora é: 3
+Número máximo encontrado até agora é: 4
+

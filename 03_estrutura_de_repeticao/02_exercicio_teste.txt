@@ -1,0 +1,24 @@
+>>> nome_usuario = 'bidu'
+>>> senha_usuario = 'bidu'
+>>> if nome_usuario == senha_usuario:
+...     print('Senha do usuário deve ser diferente do nome')
+...
+Senha do usuário deve ser diferente do nome
+
+>>> nome_usuario = 'bidu'
+>>> senha_usuario = 'idu'
+>>> if nome_usuario == senha_usuario:
+...     print('Senha do usuário deve ser diferente do nome')
+... else:
+...     print('Senha do usuário válida!')
+Senha do usuário válida!
+
+>>> while True:
+... nome_usuario = 'bidu'
+... senha_usuario = 'idu'
+...     if nome_usuario == senha_usuario:
+...         print('Senha do usuário deve ser diferente do nome')
+...     else:
+...         print('Senha do usuário válida!')
+...         break
+Senha do usuário válida!

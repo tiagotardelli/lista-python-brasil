@@ -1,0 +1,7 @@
+numero_1 = int(input('Digite o número inteiro inicial: '))
+numero_2 = int(input('Digite o número inteiro Final: '))
+soma = 0
+for i in range(numero_1 + 1, numero_2):
+    print(i)
+    soma += i
+print(f'Soma: {soma}')

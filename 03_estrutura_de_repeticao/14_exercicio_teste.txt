@@ -1,0 +1,10 @@
+>>> quantidade_pares = quantidade_impares = 0
+>>>
+>>> for i in range(10):
+...     if (i % 2) == 0:
+...         quantidade_pares += 1
+...     else:
+...         quantidade_impares +=1
+...
+>>> print(f'Quantidade pares: {quantidade_pares} | Quantidade ímpares: {quantidade_impares}')
+Quantidade pares: 5 | Quantidade ímpares: 5

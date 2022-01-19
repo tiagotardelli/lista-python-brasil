@@ -1,0 +1,6 @@
+>>> for i in range(4):
+...     if not ((i % 2) == 0):
+...         print(i)
+...
+1
+3
